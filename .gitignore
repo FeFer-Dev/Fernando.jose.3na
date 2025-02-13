@@ -1,0 +1,64 @@
+# Arquivos de compilação e metadados
+/target/
+Cargo.lock
+
+# Binários e executáveis
+/release/
+/debug/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos IDE
+/.idea
+/.vscode
+
+# Arquivos temporários e de backup
+*~
+\#*\#
+.\#*
+*.bak
+*.swp
+*.tmp
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos de saída
+*.log
+/logs/
+/out/
+
+# Distribuições de pacotes e artefatos
+*.crate
+*.tar.gz
+*.zip
+
+# Arquivos gerados por macros (se aplicável)
+/generated/
+
+# Arquivos de teste
+*.test
+test_output.txt
+
+# Arquivos de perfil (se você estiver usando ferramentas de perfil)
+*.profraw
+*.profdata
+
+# Arquivos específicos do ambiente de implantação (adapte conforme necessário)
+.env
+config.toml
+
+# Arquivos de documentação gerados
+/doc/
+
+# Exclua pastas de teste integration que contenham arquivos grandes
+/tests/integration/large_data/
+
+# Exclua arquivos de dados de exemplo grandes
+/examples/data/
+
+# Exclua arquivos de dados de benchmark grandes
+/benches/data/
