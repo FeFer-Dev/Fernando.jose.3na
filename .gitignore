@@ -2,8 +2,9 @@
 /target/              # Diretório de saída da compilação (arquivos compilados)
 /Cargo.lock           # Arquivo de lock do Cargo (se você deseja versioná-lo, remova esta linha)
 
-# Arquivos de dependências
-/.cargo/
+#
+
+.cargo
 
 # Arquivos de configuração de IDE
 .idea/                # JetBrains (IntelliJ, WebStorm, etc.)
