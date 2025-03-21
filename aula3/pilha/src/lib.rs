@@ -113,7 +113,7 @@ mod tests {
         let mut pilha = Stack::nova();
         for i in 0..100 {
             pilha.empilhar(i).unwrap();
-            assert!(!pilha.esta_cheia());
+            assert!(!pilha.esta_cheia())
         }
     }
 }
