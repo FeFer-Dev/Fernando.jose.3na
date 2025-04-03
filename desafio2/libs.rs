@@ -10,7 +10,6 @@ struct BST {
 }
 
 impl BST {
-    // Criar uma nova árvore vazia
     fn new() -> Self {
         BST { root: None }
     }
